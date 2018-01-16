@@ -1,0 +1,131 @@
+/* ------------ Global -------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+}
+h1, h2{
+  margin: 0;
+}
+
+button{
+  margin: 20px 0;
+  background: #60cc19;
+  border-radius: 12px;
+  padding: 15px;
+}
+button a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+button a:hover{
+  text-decoration: none;
+}
+
+button a:active{
+  text-decoration: none;
+}
+
+.content-wrap{
+  margin: 0 auto;
+  max-width: 950px;
+
+}
+
+h3{
+  padding-top: 30px;
+}
+
+h2{
+  padding: 15px 0;
+}
+
+li{
+  line-height: 160%;
+}
+
+main{
+    background: linear-gradient(rgba(241, 241, 241, 0.5), rgb(236, 243, 234))no-repeat bottom;
+    background-size: cover;
+    padding: 20px;
+}
+/* ---------- Header ------------- */
+header{
+  background: url("../images/try.jpg") no-repeat center;
+  background-size: cover;
+  padding: 90px;
+  overflow: hidden;
+  position: relative;
+}
+
+header .header-wrap{
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+
+.navbar{
+  position: absolute; !important;
+  top: 0; !important;
+  left:0; !important;
+}
+
+/* --------- Footer -------------- */
+.footer{
+  background: #efece7;;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+
+
+/* --------- Conclusio ----------- */
+.conclusion{
+  clear: both;
+  overflow: hidden;
+}
+
+.conclusion p{
+  padding-top: 60px;
+}
+
+
+/* ----------- Media --------------- */
+@media (min-width: 700px) {
+  .col-med{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    min-height: 340px;
+  }
+  .vertical-line {
+    border-left: thick solid #60cc19;;
+        padding: 0 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  header h1{
+    font-size: 30px;
+  }
+  header h2{
+    font-size: 20px;
+  }
+  .computer-knowledge{
+    background-position: 87% 50%;
+  }
+  .header-wrap{
+    width: 100%;
+  }
+
+}
